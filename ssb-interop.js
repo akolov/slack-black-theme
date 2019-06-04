@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Then get its webviews
     let webviews = document.querySelectorAll(".TeamView webview");
     // Fetch our CSS in parallel ahead of time
-    const cssPath = 'https://raw.githubusercontent.com/akolov/slack-black-theme/slack.css';
+    const cssPath = 'https://raw.githubusercontent.com/akolov/slack-black-theme/master/slack.css';
     const localCssPath = 'sib.css';
     let cssPromise = fetch(cssPath).then(response => response.text());
 
