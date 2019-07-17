@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .c-message {
-    font-size:15px;
-    line-height:16px;
+    font-size:15px !important;
+    line-height:16px !important;
 }
 
 body {
-    font-family: 'Lato', appleLogo, sans-serif !important;
+    font-family: 'Helvetica', appleLogo, sans-serif !important;
     text-rendering: optimizeLegibility !important;
     word-spacing: -1px;
     -webkit-font-smoothing: auto;
