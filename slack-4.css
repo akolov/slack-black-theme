@@ -6,9 +6,8 @@
 }
 
 body {
-    font-family: 'Helvetica', appleLogo, sans-serif !important;
+    font-family: 'Lato', appleLogo, sans-serif !important;
     text-rendering: optimizeLegibility !important;
-    word-spacing: -1px;
     -webkit-font-smoothing: auto;
 }
 div.c-message.c-message--light.c-message--hover {
