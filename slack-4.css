@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 [lang] body {
-    font-family: Lato, appleLogo, sans-serif
-}
-
-[lang=ja-JP] body {
-    font-family: NotoSansJP, Lato, appleLogo, sans-serif
+    font-family: 'Lato', appleLogo, sans-serif
 }
 
 body {
