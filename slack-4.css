@@ -1,12 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-black.woff2
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-light.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-light.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-regular.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-regular.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-bold.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-bold.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: normal;
+    font-weight: 900;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-black.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-black.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 300;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-italic-light.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-italic-light.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-italic.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-italic.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-italic-bold.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-italic-bold.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
+
+@font-face {
+    font-family: Slack-Lato;
+    font-style: italic;
+    font-weight: 900;
+    src: local('Slack-Lato'), url(https://a.slack-edge.com/915f8/fonts/lato-2-compressed/mac/lato-italic-black.woff2) format('woff2'), url(https://a.slack-edge.com/915f8/fonts/lato-2/mac/lato-italic-black.woff) format('woff');
+    unicode-range: U + 0000-F8FE, U + F900-FFFF
+}
 
 .c-message {
-    font-size: 20px !important;
-    line-height: 16px !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
 }
 
 body {
-    font-family: 'SF UI Display', appleLogo, sans-serif !important;
+    font-family: Slack-Lato, appleLogo, sans-serif !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: auto;
 }
