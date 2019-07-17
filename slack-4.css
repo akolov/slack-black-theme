@@ -1113,6 +1113,7 @@ color:#a4d677 !important
     line-height: 1.5;
     padding: 11px 0 11px 11px;
     border-top: 1px solid #4c4c4c;
+    font-size: 15px;
     background: #222222;
     color: white;}
     #details_tab .conversation_details .member_info, #details_tab .conversation_details .slackbot_info{
@@ -1438,6 +1439,7 @@ color:white;}
     background: transparent;}
     #channel_browser .channel_browser_divider {
     color: #ffffff;
+    font-size: 15px;
     width: 100%;
     padding: 4px 0 4px 12px;
     font-weight: 700;
